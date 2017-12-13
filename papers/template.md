@@ -8,16 +8,16 @@
 
 
 
-## Why:
+## Why
 
-## What:
+## What
 
-## How:
-
-
-
-## Results:
+## How
 
 
 
-## Thoughts:
+## Results
+
+
+
+## Thoughts
