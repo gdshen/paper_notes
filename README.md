@@ -1,7 +1,7 @@
 # paper_notes
 > Paper notes for face related analysis using deep learning
-
-
+>
+> Due to the lack of support for mathjax rendering in github markdown file, maybe you need install an extension [here](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima) in chrome to view the math equation correctly.
 
 ### To be read
 
