@@ -1,0 +1,41 @@
+### Title: Triplet similarity embedding for face verification
+
+#### Author: Swami Sankaranarayanan, Azadeh Alavi, Rama Chellappa
+
+#### Published: Arxiv
+
+#### Code: None
+
+
+
+## Why
+
+The training time of a previous method(facenet? 1000hours) is too long. 
+
+Facenet uses a triplet distance loss function and was trained on a large private dataset. This work is more general.
+
+## What
+
+1. propose a deep network architecture and a training scheme that ensures **faster** training time.
+2. **formulate** a triplet similarity embedding learning method
+3. performance tested on the IJB-A datasets
+
+## How
+
+1. Mirroring the AlexNet architecture(fewer parameters in fc layers, and using PReLU instead of ReLU)
+2. Using AlexNet weights to initialize the network(see thoughts 2)
+3. Using AlexNet-like network to do feature extraction.
+4. Using the feature extracted(512 dims)  as inputs to learn triplet similarity embedding(128 dims).
+5. update a matrix $W$ to transform an intermediate 512 dims feature vector to 128 dims.
+
+## Results
+
+The author calls the method used in facenet TDE(Triplet distance embedding), and their own TSE(Triplet similarity embedding).
+
+TSE+L2 is better than L2 only and TDE+L2
+
+## Thoughts
+
+1. Compare running time with facenet is unfair.
+2. Using VGG/ResNet/DenseNet/Inception instead of AlexNet?
+3. Pay attention to the "distance" and "similarity"

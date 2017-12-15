@@ -55,16 +55,15 @@ parameters from lower layers of cnn are shared among all the tasks
 
 for isolated learning, the optimum network parameters $(\theta_s^*, \theta_{t_i}^*)$ can be computed using
 
-$$(\theta_s^*, \theta_{t_i}^*)=\arg \min_{(\theta_s,\theta_{t_i})}J_i(\theta_s,\theta_{t_i};D)$$
+$(\theta_s^*, \theta_{t_i}^*)=\arg \min_{(\theta_s,\theta_{t_i})}J_i(\theta_s,\theta_{t_i};D)$
 
 for MTL
 
-$$(\theta_s^*, \theta_{t_i}^*)=\arg \min_{(\theta_s,\theta_{t_i})}J_i(\theta_s,\theta_{t_i};D) + \sum_{j\neq i}^n\alpha_jJ_j(\theta_s, \theta_{t_j};D)$$
+$(\theta_s^*, \theta_{t_i}^*)=\arg \min_{(\theta_s,\theta_{t_i})}J_i(\theta_s,\theta_{t_i};D) + \sum_{j\neq i}^n\alpha_jJ_j(\theta_s, \theta_{t_j};D)$
 
 Other tasks can be interpreted as a regularizer $R_i$ on $\theta_s$
 
-$$(\theta_s^*, \theta_{t_i}^*)=\arg \min_{(\theta_s,\theta_{t_i})}J_i(\theta_s,\theta_{t_i};D) + \lambda R_i(\theta_s;D)$$
-
+$(\theta_s^*, \theta_{t_i}^*)=\arg \min_{(\theta_s,\theta_{t_i})}J_i(\theta_s,\theta_{t_i};D) + \lambda R_i(\theta_s;D)$
 
 
 #### Domain-based Regularization

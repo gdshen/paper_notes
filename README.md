@@ -5,7 +5,6 @@
 
 ### To be read
 
-- Triplet Similarity Embedding For Face Verification
 - HyperFace: A Deep Multi-task Learning Framework for Face Detection, Landmark Localization, Pose Estimation, and Gender Recognition
 - SphereFace: Deep Hypersphere Embedding for Face Recognition
 
@@ -13,6 +12,7 @@
 ### Face embedding
 
 - [FaceNet: A Unified Embedding for Face Recognition and Clustering](./papers/FaceNet_A_Unified_Embedding_for_Face_Recognition_and_Clustering.md)
+- [Triplet Similarity Embedding For Face Verification](./papers/Triplet_similarity_embedding_for_face_verification.md)
 
 ### Multi Task Face Learning
 
