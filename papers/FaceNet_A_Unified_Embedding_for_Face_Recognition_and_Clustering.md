@@ -38,3 +38,5 @@ Achieved 99.63% on LFW face verification and 95.12% in YouTube Faces DB.
 ## Thoughts
 
 The triplet loss can not only using in generating face vector description, but also in image similarity.
+
+Maybe training task too much times(1000 hours in CPU)
