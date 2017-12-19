@@ -19,6 +19,10 @@
 - [An All-In-One Convolutional Neural Network for Face Analysis](./papers/An_ALL-In-One_Convolutional_Neural_network_for_Face_Analysis.md)
 
 
+### General Tricks of neural network
+
+- [Instance Normalization: The Missing Ingredient for Fast Stylization](./papers/Instance_Normalization_The_Missing_Ingredient_for_Fast_Stylization.md)
+
 ## Datasets
 
 - [LFW](http://vis-www.cs.umass.edu/lfw/)
