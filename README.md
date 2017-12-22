@@ -6,18 +6,20 @@
 ### To be read
 
 - HyperFace: A Deep Multi-task Learning Framework for Face Detection, Landmark Localization, Pose Estimation, and Gender Recognition
-- SphereFace: Deep Hypersphere Embedding for Face Recognition
 
 
 ### Face embedding
 
 - [FaceNet: A Unified Embedding for Face Recognition and Clustering](./papers/FaceNet_A_Unified_Embedding_for_Face_Recognition_and_Clustering.md)
 - [Triplet Similarity Embedding For Face Verification](./papers/Triplet_similarity_embedding_for_face_verification.md)
+- [SphereFace: Deep Hypersphere Embedding for Face Recognition](./papers/SphereFace_Deep_Hypersphere_Embedding_for_Face_Recognition.md)
 
 ### Multi Task Face Learning
 
 - [An All-In-One Convolutional Neural Network for Face Analysis](./papers/An_ALL-In-One_Convolutional_Neural_network_for_Face_Analysis.md)
 
+### Age Estimation
+- [Deep Convolutional Neural Network for Age Estimation based on VGG-Face Mode](./papers/Deep_Convolutioal_Neural_Network_for_Age_Estimation_based_on_VGG-Face_Model.md)
 
 ### General Tricks of neural network
 
@@ -34,4 +36,12 @@
 - [IMDB-Wiki](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) Datasets with age information, about half million images.
 - [CASIA](http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html) About 40K images
 - [AFLW](https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/aflw/) Annotated Facial Landmarks in the Wild
+- [MegaFace](http://megaface.cs.washington.edu/)
+- [APPA-REAL](http://chalearnlap.cvc.uab.es/dataset/26/description/) 7591 images with age annotated
 
+## Conferences & Transcations
+- CVPR: Computer Vision and Pattern Recognition
+- ICCV: International Conference on Computer Vision
+- ECCV
+- FG
+- ICML
