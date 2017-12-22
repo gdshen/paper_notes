@@ -8,11 +8,12 @@
 - HyperFace: A Deep Multi-task Learning Framework for Face Detection, Landmark Localization, Pose Estimation, and Gender Recognition
 
 
-### Face embedding
+### Face embedding for face recognition
 
 - [FaceNet: A Unified Embedding for Face Recognition and Clustering](./papers/FaceNet_A_Unified_Embedding_for_Face_Recognition_and_Clustering.md)
 - [Triplet Similarity Embedding For Face Verification](./papers/Triplet_similarity_embedding_for_face_verification.md)
 - [SphereFace: Deep Hypersphere Embedding for Face Recognition](./papers/SphereFace_Deep_Hypersphere_Embedding_for_Face_Recognition.md)
+- [Deep Face Recognition](./papers/Deep_Face_Recognition.md)
 
 ### Multi Task Face Learning
 
@@ -45,3 +46,4 @@
 - ECCV
 - FG
 - ICML
+- BMVC: British Machine Vision Conference
