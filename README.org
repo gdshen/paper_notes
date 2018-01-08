@@ -9,21 +9,21 @@ The more stars, the more recommended.
 
 *** Face embedding for face recognition
 
-- [[./papers/FaceNet_A_Unified_Embedding_for_Face_Recognition_and_Clustering.md][FaceNet: A Unified Embedding for Face Recognition and Clustering]] *****
-- [[./papers/Triplet_similarity_embedding_for_face_verification.md][Triplet Similarity Embedding For Face Verification]] ***
-- [[./papers/SphereFace_Deep_Hypersphere_Embedding_for_Face_Recognition.md][SphereFace: Deep Hypersphere Embedding for Face Recognition]] *****
-- [[./papers/Deep_Face_Recognition.md][Deep Face Recognition]] ****
-- [[./papers/A_Light_CNN_for_Deep_Face_Representation_with_Noisy_Labels.md][A Light CNN for Deep Face Representation with Noisy Labels]]
+- [[./papers/FaceNet_A_Unified_Embedding_for_Face_Recognition_and_Clustering.org][FaceNet: A Unified Embedding for Face Recognition and Clustering]] *****
+- [[./papers/Triplet_similarity_embedding_for_face_verification.org][Triplet Similarity Embedding For Face Verification]] ***
+- [[./papers/SphereFace_Deep_Hypersphere_Embedding_for_Face_Recognition.org][SphereFace: Deep Hypersphere Embedding for Face Recognition]] *****
+- [[./papers/Deep_Face_Recognition.org][Deep Face Recognition]] ****
+- [[./papers/A_Light_CNN_for_Deep_Face_Representation_with_Noisy_Labels.org][A Light CNN for Deep Face Representation with Noisy Labels]]
 
 *** Multi Task Face Learning
-- [[./papers/An_ALL-In-One_Convolutional_Neural_network_for_Face_Analysis.md][An All-In-One Convolutional Neural Network for Face Analysis]] ****
+- [[./papers/An_ALL-In-One_Convolutional_Neural_network_for_Face_Analysis.org][An All-In-One Convolutional Neural Network for Face Analysis]] ****
 
 *** Age Estimation
-- [[./papers/Deep_Convolutioal_Neural_Network_for_Age_Estimation_based_on_VGG-Face_Model.md][Deep Convolutional Neural Network for Age Estimation based on VGG-Face Mode]] ****
-- [[./papers/Apparent_Age_Estimation_Using_Ensemble_of_Deep_Learning_Models.md][Apparent Age Estimation Using Ensemble of Deep Learning Models]] **
+- [[./papers/Deep_Convolutioal_Neural_Network_for_Age_Estimation_based_on_VGG-Face_Model.org][Deep Convolutional Neural Network for Age Estimation based on VGG-Face Mode]] ****
+- [[./papers/Apparent_Age_Estimation_Using_Ensemble_of_Deep_Learning_Models.org][Apparent Age Estimation Using Ensemble of Deep Learning Models]] **
 
 *** General Tricks of neural network
-- [[./papers/Instance_Normalization_The_Missing_Ingredient_for_Fast_Stylization.md][Instance Normalization: The Missing Ingredient for Fast Stylization]] ****
+- [[./papers/Instance_Normalization_The_Missing_Ingredient_for_Fast_Stylization.org][Instance Normalization: The Missing Ingredient for Fast Stylization]] ****
 
 ** Datasets
 - [[http://vis-www.cs.umass.edu/lfw/][LFW]]
