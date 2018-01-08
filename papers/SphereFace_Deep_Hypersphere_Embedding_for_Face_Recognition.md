@@ -1,0 +1,40 @@
+### Title: SphereFace: Deep Hypersphere Embedding for Face Recognition
+
+#### Author: Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Rajah， Le Song
+
+#### Published: CVPR 2017
+
+#### Code: [Caffe](https://github.com/wyliu/sphereface)
+
+
+
+## Why
+Sovling deep face recognition problem under open-set protocol, where ideal face features are expected to have smaller maximal intra-class distance than minimal inter-class distance under a suitably chosen metric space. Current few methods achieve this goal.
+
+Combining Euclidean margin based losses with softmax loss causing imcompatible problems.
+
+## What
+1. Propose A-softmax loss.
+2. adjust angular margin by a parameter $m$.
+3. derive specific $m$ to approximate the ideal feature criterion.
+
+## How
+### Modified Softmax
+Constraint $|W|=1$ and $b = 0$
+
+### Angular Softmax
+introduce an integer $m$, so the boundary becomes to $||x||(cos(m\theta_1) - cos(\theta_2)) = 0$
+
+
+## Results
+
+
+
+## Thoughts
+1. close-set face recognition problem needs features to be separable, open-set face recognition needs features to be discriminative.
+2. The features learned byu softmax loss have intrinsic angular distribution. (Considering the decision boundary $W_1X > W_2X$, which will cause the angular between the feature and weigth to be small)
+3. The A-softmax loss may be used in general classification problems.
+
+The relationship of many losses
+Weiyang Liu is the first author of A-softmax Loss & L-softmax Loss
+Yandong Wen is the second author of A-softmax Loss and the first author of the center Loss.

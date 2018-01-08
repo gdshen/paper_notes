@@ -15,6 +15,7 @@
 - [Triplet Similarity Embedding For Face Verification](./papers/Triplet_similarity_embedding_for_face_verification.md) ***
 - [SphereFace: Deep Hypersphere Embedding for Face Recognition](./papers/SphereFace_Deep_Hypersphere_Embedding_for_Face_Recognition.md) *****
 - [Deep Face Recognition](./papers/Deep_Face_Recognition.md) ****
+- [A Light CNN for Deep Face Representation with Noisy Labels](./papers/A_Light_CNN_for_Deep_Face_Representation_with_Noisy_Labels.md)
 
 ### Multi Task Face Learning
 
