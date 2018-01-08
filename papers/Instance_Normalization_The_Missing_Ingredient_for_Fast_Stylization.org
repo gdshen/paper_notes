@@ -1,20 +1,27 @@
-### Title: Instance Normalization: The Missing Ingredient for Fast Stylization
+* Paper Information
+** Title
+Instance Normalization: The Missing Ingredient for Fast Stylization
 
-#### Author: Dmitry Ulyanov, Andrea Vedaldi, Victor Lempitsky
+** Author
+Dmitry Ulyanov, Andrea Vedaldi, Victor Lempitsky
 
-#### Published: Arxiv
+** Published
+Arxiv
 
-#### Code: Almost all deep learning frameworks implement Instance Normalization operation
+** Code
+Almost all deep learning frameworks implement Instance Normalization operation
 
-
-## Why
+* Paper Content
+** Why
 The qualitative results of fast stylization methods does not match the results of the origin slow stylization method.
 
-## What
+** What
 Using instacne normalization instead of batch normalization.
 
-## How
-> Just introduce the definition of instance normalization
+** How
+#+BEGIN_QUOTE
+Just introduce the definition of instance normalization
+#+END_QUOTE
 
 A simple version of contrast/instance normalization
 
@@ -30,9 +37,8 @@ $$\sigma_{ti}^2 = \frac{1}{HW}\sum_{l=1}^{W}\sum_{m=1}^H(x_{tilm} - m\mu_{ti})^2
 
 But I think there should not be a $m$ before $\mu_{ti}$, maybe $m\mu$ means mean $\mu$.
 
-## Results
+** Results
 The qualitive results are better than the origin fast stylization methods.
 
-
-## Thoughts
+** Thoughts
 Small tricks are very important in training.

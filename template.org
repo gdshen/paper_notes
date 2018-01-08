@@ -1,0 +1,12 @@
+* Paper Information
+** Title:
+** Author:
+** Published:
+** Code:
+
+* Paper Content
+** Why
+** What
+** How
+** Results
+** Thoughts

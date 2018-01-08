@@ -1,0 +1,22 @@
+* Paper Information
+** Title
+Apparent Age Estimation Using Ensemble of Deep Learning Models
+
+** Author
+RRefik Can Mallı, Mehmet Aygun, Hazım Kemal Ekenel
+
+** Published
+Arxiv
+
+** Code
+None
+
+
+
+* Paper Content
+** Thoughts
+1. Old people's ages are harder to predict.
+2. Consider the variation of age labels.
+3. Using face alignment.
+4. Data augmentation is necessary.
+5. Ensemble multiple may works.
