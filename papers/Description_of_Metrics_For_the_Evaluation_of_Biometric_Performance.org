@@ -26,7 +26,7 @@ Affirming that a claimed identify is correct by comparing the offered claimes of
 #+BEGIN_QUOTE
 A biometric system attempts to determine the identify of an individual.
 #+END_QUOTE
-*** Close Set (Watchlist)
+*** Close Set
 #+BEGIN_QUOTE
 The person is assumbed to exist in the database.
 #+END_QUOTE
@@ -34,7 +34,7 @@ The person is assumbed to exist in the database.
 Chart: CMC (Cumulative Match Characteristic)
 Rank-k: A probe is given rank-k when the actual subject is ranked in position k by an identification system.
 
-*** Open Set
+*** Open Set (Watchlist)
 #+BEGIN_QUOTE
 The person may not have been enrolled in the database.
 #+END_QUOTE
