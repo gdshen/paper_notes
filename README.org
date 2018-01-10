@@ -25,6 +25,9 @@ The more stars, the more recommended.
 *** General Tricks of neural network
 - [[./papers/Instance_Normalization_The_Missing_Ingredient_for_Fast_Stylization.org][Instance Normalization: The Missing Ingredient for Fast Stylization]] ****
 
+*** Evaluation Metrics
+- [[./papers/Description_of_Metrics_For_the_Evaluation_of_Biometric_Performance.org][Description of Metrics For the Evaluation of Biometric Performance]]
+
 ** Datasets
 - [[http://vis-www.cs.umass.edu/lfw/][LFW]]
 - [[http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html][CelebA]]

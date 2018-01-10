@@ -1,0 +1,49 @@
+* Description of Metrics For the Evaluation of Biometric Performance
+** Accuracy, precision and recall
+*** Accuracy
+A more general concept
+*** precision
+precision = (True positive) / (True positive + false positive)
+*** recall
+recall = (True positive) / (True posotive + false negative)
+
+** Verification
+#+BEGIN_QUOTE
+Affirming that a claimed identify is correct by comparing the offered claimes of identify with one or more previsously enrolled templates.
+#+END_QUOTE
+
+| Concepts | Meaning                           |
+|----------+-----------------------------------|
+| FAR      | False Acceptance Rate             |
+| FRR      | False Reject Rate                 |
+| EER      | Equal Error Rate                  |
+| WER      | Weighted Error Rate               |
+| ROC      | Receiver Operating Characteristic |
+| DET      | Detection Error Trade-off         |
+
+
+** Identification
+#+BEGIN_QUOTE
+A biometric system attempts to determine the identify of an individual.
+#+END_QUOTE
+*** Close Set (Watchlist)
+#+BEGIN_QUOTE
+The person is assumbed to exist in the database.
+#+END_QUOTE
+
+Chart: CMC (Cumulative Match Characteristic)
+Rank-k: A probe is given rank-k when the actual subject is ranked in position k by an identification system.
+
+*** Open Set
+#+BEGIN_QUOTE
+The person may not have been enrolled in the database.
+#+END_QUOTE
+| Concepts | Meaning                           |
+|----------+-----------------------------------|
+| DIR      | Detectino and Identification Rate |
+| FAR      | False Alarm Rate                  |
+
+
+
+** Performance metric vs performance criteria
+A metric becomes a performance criterion when it is used to obtain a threhold but not for performance reporting.
