@@ -1,0 +1,22 @@
+* Paper Information
+** Title:
+Disguised Face Identification(DFI) with Facial KeyPoints using Spatial Fusion Convolutional Network
+** Author:
+Amarjot Singh, Devendra Patil, G Meghana Reddy, SN Omkar
+** Published:
+ICCV workshop
+** Code:
+None
+* Paper Content
+** Why
+Disguised face detection is hard.
+** What
+1. Introduce a facial key point detection framework for disguised face identification.
+2. Present a Face Disguise(FG) dataset.
+** How
+1. detect facial landmark first.
+2. using 14 landmark to do face identification
+
+** Results
+** Thoughts
+The most import part of their work is to propose a new dataset for disguised face identification.

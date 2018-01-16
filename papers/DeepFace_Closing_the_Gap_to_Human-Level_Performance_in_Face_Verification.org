@@ -1,0 +1,17 @@
+* Paper Information
+** Title
+DeepFace: Closing the Gap to Human-Level Performance in Face Verification
+** Author
+Yaniv Taigman, Ming Yang, Marc'Aurelio Ranzato, Lior Wolf
+** Published
+CVPR 2014
+** Code
+None
+
+* Paper Content
+** Why
+
+** What
+** How
+** Results
+** Thoughts
