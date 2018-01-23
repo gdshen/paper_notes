@@ -1,0 +1,43 @@
+* Paper Information
+** Title: How far are we from solving the 2D & 3D Face Alignment problem?(and a dataset of 230,000 3D facial landmarks)
+** Author: Adrian Bulat, Georgios Tzimiropoulos
+** Published: ICCV 2017
+** Code: [[https://github.com/1adrianb/2D-and-3D-face-alignment][Torch]] [[https://github.com/1adrianb/face-alignment][PyTorch]]
+* Paper Content
+** Why
+How far a deep neural network is from attaining close to saturating performance on 2D & 3D datasets.
+** What
+1. Create a baseline network to solve 2D facial landmark localization.
+2. converted 2D landmarks into 3D landmarks, propose a 3D landmark datasets
+3. training a neural network on this newly introduced 3D landmark datasets
+4. evalute different factors that have effects on the performance of face alignment.
+   
+** How
+1. HourGlass Network
+2. hierarchical parallel & multi-scale block
+3. FAN: face alignment network
+4. LS3D-w: large scale 3d 
+
+*** Metrics
+$$NME = \frac{1}{N}\sum_{k=1}^{N}\frac{||x_k-y_k||_2}{d}$$
+
+*** 2d & 3d face alignment network
+four hourglass network, replace the bottleneck block
+
+*** 2d to 3d convertor
+using a network to convert, augment the input rgb channel with 68 channel indicating the landmark location.
+
+** Results
+#+ATTR_ORG: :width 600
+[[../imgs/hfawfs2d3dfa1.png]]
+
+
+** Thoughts
+1. The relationship between human pose estimation and facial landmark localization is close.
+2. This paper has cited many papers about human pose estimation.
+3. heatmap regression
+4. prior to the adventing of deep learning, landmark localization are largely based on cascaded regression methods.
+5. What is the 2d synthetically expanded 2d facial landmark dataset. 300-W-LP, which is a synthetically datasets that expands 300-W.
+6. 300-W datasets is a concatenation of a series of smaller datasets: LFPW, HELEN, AFW, iBUG where each image was reannotated in a consistent manner.
+7. profile face: face shot in the side.
+
