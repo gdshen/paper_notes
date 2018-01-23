@@ -1,0 +1,29 @@
+* Paper Information
+** Title
+Learning Face Representation from Scratch
+** Author
+Dong Yi, Zhen Lei, Shengcai Liao, Stan Z. Li
+** Published
+Arxiv
+** Code
+None
+* Paper Content
+** Why
+Sometimes data is more important than algorithm.
+** What
+1. Propose a semi-automatical way to collect face images.
+2. Use a 11-layer CNN to learn discrimative representation.
+** How
+IMDB is well-structured.
+*** Data collection
+1. extract the feature template of each face by a pretrained face recognition engine
+2. use the "main photo" of each celebrity as its seed.
+3. use the images contains 1 face to augment each celebrity's seeding images.
+4. for the remain images in "photo gallery", find the correspondence between faces and celebrities constrained by similarity and name tag.
+5. crop face from images and save into independent folder for each celebrity, manually check the dataset and delete the false grouped face images.
+*** Learning Deep Representation
+11 layer CNNs
+gray-scale
+** Results
+CASIA-WebFace has 10575 subjects and 494,414 face images.
+** Thoughts

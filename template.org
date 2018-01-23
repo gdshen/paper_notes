@@ -1,8 +1,8 @@
 * Paper Information
-** Title:
-** Author:
-** Published:
-** Code:
+** Title
+** Author
+** Published
+** Code
 * Paper Content
 ** Why
 ** What

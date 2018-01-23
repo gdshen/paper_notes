@@ -15,6 +15,7 @@ The more stars, the more recommended.
 - [[./papers/Deep_Face_Recognition.org][Deep Face Recognition]] ****
 - [[./papers/A_Light_CNN_for_Deep_Face_Representation_with_Noisy_Labels.org][A Light CNN for Deep Face Representation with Noisy Labels]]
 - [[./papers/Disguise_Face_Identification_with_Facial_KeyPoints_using_Spatial_Fusion_Convolutional_Network.org][Disguised Face Identification with Facial KeyPoints using Spatial Fusion Convolutional Network]]
+- [[./papers/Learning_Face_Representation_from_Scratch.org][Learning Face Representation from Scratch]]
 
 *** Face Alignment
 - [[./papers/How_far_are_we_from_solving_2d_and_3d_Face_Alignment_problem.org][How far are we from solving 2d & 3d Face Alignment Problems]]
@@ -42,6 +43,8 @@ The more stars, the more recommended.
 - [[https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/aflw/][AFLW]] Annotated Facial Landmarks in the Wild
 - [[http://megaface.cs.washington.edu/][MegaFace]]
 - [[http://chalearnlap.cvc.uab.es/dataset/26/description/][APPA-REAL]] 7591 images with age annotated
+- [[https://www.cs.tau.ac.il/~wolf/ytfaces/][YTF]]
+- [[http://bcsiriuschen.github.io/CARC/][CARC cross-age face recognition]]
 
 ** Conferences & Transcations
 - CVPR: Computer Vision and Pattern Recognition
