@@ -1,0 +1,2 @@
+1. pooling is a routing tech
+2. embed a layer inside a layer 

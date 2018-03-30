@@ -1,0 +1,15 @@
+* Paper Information
+** Title
+NormFace: L_2 HyperSphere Embedding for Face Verification
+** Author
+Feng Wang, Xiang Xiang, Jian Cheng, Alan L. Yuille
+** Published
+ACM international conference on Multimedia (CCF A rank conference on Computer Graphics and Multimedia)
+** Code
+[[https://github.com/happynear/NormFace][Matlab]]
+* Paper Content
+** Why
+** What
+** How
+** Results
+** Thoughts

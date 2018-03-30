@@ -1,0 +1,15 @@
+* Paper Information
+** Title
+High Resolution Face Completion with Multiple Controllable A ributes via Fully End-to-End Progressive Generative Adversarial Networks
+** Author
+zeyuan chen, shaoliang nie, tianfu wu, christopher g.healey
+** Published
+[[https://arxiv.org/abs/1801.07632][Arxiv]]
+** Code
+None
+* Paper Content
+** Why
+** What
+** How
+** Results
+** Thoughts

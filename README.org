@@ -7,6 +7,7 @@ The more stars, the more recommended.
 ** To be read
 - HyperFace: A Deep Multi-task Learning Framework for Face Detection, Landmark Localization, Pose Estimation, and Gender Recognition
 
+** Face related analysis
 *** Face embedding for face recognition
 
 - [[./papers/FaceNet_A_Unified_Embedding_for_Face_Recognition_and_Clustering.org][FaceNet: A Unified Embedding for Face Recognition and Clustering]] *****
@@ -16,6 +17,7 @@ The more stars, the more recommended.
 - [[./papers/A_Light_CNN_for_Deep_Face_Representation_with_Noisy_Labels.org][A Light CNN for Deep Face Representation with Noisy Labels]]
 - [[./papers/Disguise_Face_Identification_with_Facial_KeyPoints_using_Spatial_Fusion_Convolutional_Network.org][Disguised Face Identification with Facial KeyPoints using Spatial Fusion Convolutional Network]]
 - [[./papers/Learning_Face_Representation_from_Scratch.org][Learning Face Representation from Scratch]]
+- [[./papers/normface_l2_hypersphere_embedding_for_face_verification.org][NormFace L_2 Hypersphere Embedding for Face Verification]]
 
 *** Face Alignment
 - [[./papers/How_far_are_we_from_solving_2d_and_3d_Face_Alignment_problem.org][How far are we from solving 2d & 3d Face Alignment Problems]]
@@ -27,11 +29,17 @@ The more stars, the more recommended.
 - [[./papers/Deep_Convolutioal_Neural_Network_for_Age_Estimation_based_on_VGG-Face_Model.org][Deep Convolutional Neural Network for Age Estimation based on VGG-Face Mode]] ****
 - [[./papers/Apparent_Age_Estimation_Using_Ensemble_of_Deep_Learning_Models.org][Apparent Age Estimation Using Ensemble of Deep Learning Models]] **
 
+*** Evaluation Metrics
+- [[./papers/Description_of_Metrics_For_the_Evaluation_of_Biometric_Performance.org][Description of Metrics For the Evaluation of Biometric Performance]]
+  
+** Neural Networks
 *** General Tricks of neural network
 - [[./papers/Instance_Normalization_The_Missing_Ingredient_for_Fast_Stylization.org][Instance Normalization: The Missing Ingredient for Fast Stylization]] ****
 
-*** Evaluation Metrics
-- [[./papers/Description_of_Metrics_For_the_Evaluation_of_Biometric_Performance.org][Description of Metrics For the Evaluation of Biometric Performance]]
+
+** Generative Adversarial Networks
+*** Face Completion
+[[./paper_notes/papers/High_Resolution_Face_Completino_with_Multiple_Controllable_Attributes_via_Fullly_e2e_Progressive_GAN.org][High Resolution Face Completion with Multiple Controllable A ributes via Fully End-to-End Progressive Generative Adversarial Networks ]]
 
 ** Datasets
 - [[http://vis-www.cs.umass.edu/lfw/][LFW]]
