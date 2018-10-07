@@ -1,0 +1,49 @@
+* Paper Information
+** Title 
+    Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks
+** Author
+    Kaipeng Zhang, Zhanpeng Zhang, Zhifeng Li, and Yu Qiao
+** Published
+    IEEE Signal Processing Letter, CCF C
+** Code
+    [[https://github.com/kpzhang93/MTCNN_face_detection_alignment][Official matlab]], [[https://github.com/polarisZhao/mtcnn-pytorch][PyTorch]](only implement inference, convert weights from matlab)
+   
+* Paper Content
+** Why
+   to improve the performance face detection and face alignment using deep learning.
+   
+   The main problems are:
+   1. occlusion
+   2. illumination
+   3. various poses
+  
+** What
+   1. using multi-task leaning, here they using face detection(binary classification, bounding box regression, and face landmark detection)
+   2. using cascaded convolution networks, 3 networks here to generate the final result from coarse to fine.
+    
+** How
+   1. classification with softmax
+   2. bounding box regression and landmark regression using euclidean loss
+
+   
+** Results
+   1. The effectiveness of online hard sample mining
+   2. The effectiveness of joint detection and alignment
+   3. Evaluation on face detection
+   4. Evaluation on face alignment
+
+** Thoughts
+   1. the first cascade face detection classifier was proposed in 2004, not by this paper. In this paper, they change the traditional methods into deep learning.
+   2. the idea of coarse to fine has a long history.
+   3. even though someone has use face detection and face alignment to do multi-task learning
+   4. deformable part model require high computational cost
+   5. any better hard samples mining methods? like focal-loss?
+   6. this paper using image pyramid? can we use feature pyramid instead?
+   7. for detection problems, there are some subproblems
+      1. construct the training sets, like roidb in faster-rcnn
+      2. using roidb for training
+   8. why the input size is so small?
+   9. do we really need facial landmark in training Pnet and Rnet?
+   10. train 3 networks independently or jointly? Independently
+
+

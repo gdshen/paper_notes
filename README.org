@@ -19,8 +19,9 @@ The more stars, the more recommended.
 - [[./papers/Learning_Face_Representation_from_Scratch.org][Learning Face Representation from Scratch]]
 - [[./papers/normface_l2_hypersphere_embedding_for_face_verification.org][NormFace L_2 Hypersphere Embedding for Face Verification]]
 
-*** Face Alignment
+*** Face Detection and Alignment
 - [[./papers/How_far_are_we_from_solving_2d_and_3d_Face_Alignment_problem.org][How far are we from solving 2d & 3d Face Alignment Problems]]
+- [[./papers/joint_face_detection_and_alignment_using_Multi-task_Cascaded_Convolutional_Networks.org][joint face detection and alignment using using Multi-task Cascaded Convolutional Networks]] ****
   
 *** Multi Task Face Learning
 - [[./papers/An_ALL-In-One_Convolutional_Neural_network_for_Face_Analysis.org][An All-In-One Convolutional Neural Network for Face Analysis]] ****
