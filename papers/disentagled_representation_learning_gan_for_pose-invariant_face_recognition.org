@@ -1,0 +1,41 @@
+* Paper Information
+** Title
+Disentangled Representation Learning GAN for Pose-Invariant Face Recognition
+
+** Author
+Luan Tran, Xi Yin, Xiaoming Liu
+
+** Published
+CVPR 2018
+
+** Code
+[[https://github.com/kayamin/DR-GAN][Unofficial PyTorch]]
+
+* Paper Content
+** Why
+Motivation: to improve the performance of pose invariant face recognition
+
+** What
+1. using encode-decoder structure
+2. add pose code to direct the decoder
+3. support multiple images for testing.
+   
+** How
+GAN strucuture similair zi2zi
+
+** Results
+Datasets used: multi-pie, cfp, IJB-A
+
+** Thoughts
+1. The true idea is to learn a representation without contains pose information.
+2. traditional methods for face images with large pose
+   1. face frontalization
+   2. learn pose-invariant feature representation
+3. they do not add constraints on pose in encoding network
+4. It is pair learning, we still need the pose code for our training sets.
+5. Could we acquire Multi-Pie and IJB-A datasets?
+6. It not balanced for identify classification with real/fake classification.
+7. can we replace the avgpool in the enc
+8. A very big problem is that we may not access to the Multi-Pie datasets.
+9. can we use U-net structure here?
+10. how can we combine the renset/mobilenet structure with arcface loss here?

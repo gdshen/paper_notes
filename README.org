@@ -6,6 +6,7 @@ The more stars, the more recommended.
 
 ** To be read
 - HyperFace: A Deep Multi-task Learning Framework for Face Detection, Landmark Localization, Pose Estimation, and Gender Recognition
+- Beyond Face Rotation: Global and Local Perception GAN for Photorealistic and Identity Preserving Frontal View Synthesis [[https://github.com/HRLTY/TP-GAN][TensorFlow]] (face frontalization)
 
 ** Face related analysis
 *** Face embedding for face recognition
@@ -41,6 +42,9 @@ The more stars, the more recommended.
 ** Generative Adversarial Networks
 *** Face Completion
 [[./paper_notes/papers/High_Resolution_Face_Completino_with_Multiple_Controllable_Attributes_via_Fullly_e2e_Progressive_GAN.org][High Resolution Face Completion with Multiple Controllable A ributes via Fully End-to-End Progressive Generative Adversarial Networks ]]
+
+*** Face Pose Generation
+[[./papers/disentagled_representation_learning_gan_for_pose-invariant_face_recognition.org][Disentangled Representation Learning GAN for Pose-Invariant Face Recognition]]
 
 ** Datasets
 - [[http://vis-www.cs.umass.edu/lfw/][LFW]]
