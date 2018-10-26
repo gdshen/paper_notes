@@ -1,0 +1,16 @@
+* Paper Information
+** Title
+wasserstein gan
+** Author
+Martin Arjovsky, Soumith Chintala, and Leon Bottou
+** Published
+[[https://arxiv.org/abs/1701.07875][Arxiv]]
+** Code
+[[https://github.com/martinarjovsky/WassersteinGAN][Official PyTorch]]
+
+* Paper Content
+** Why
+** What
+** How
+** Results
+** Thoughts

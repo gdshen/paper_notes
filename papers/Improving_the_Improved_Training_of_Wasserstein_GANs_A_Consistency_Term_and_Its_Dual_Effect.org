@@ -1,0 +1,28 @@
+* Paper Information
+** Title
+Improving the Improved Training of Wasserstein GANs: A Consistency Term and Its Dual Effect
+
+** Author
+Xiang Wei, Boqing Gong, Zixia Liu, Wei Lu, Liqiang Wang
+
+** Published
+ICLR 2018
+
+** Code
+[[https://github.com/biuyq/CT-GAN][Official TensorFlow]] [[https://github.com/Randl/improved-improved-wgan-pytorch][
+Third Party PyTorch]]
+
+* Paper Content
+** Why
+WGAN-GP only enforces the Lipschitz continuity on concrete sample points.
+
+** What
+Propose a new regulation term call consistency term.
+
+** How
+$$L = \mathbb{E}_{\mathit{z}\sim \mathbb{P}_\mathit{z}}[D(G(\mathit{\boldsymbol z})] - \mathbb{E}_{\boldsymbol{x}\sim \mathbb{P}_r}[D(\boldsymbol(x)] + \lambda_1GP|_{\hat{\boldsymbol{x}}} + \lambda_2CT|_{\boldsymbol{x}',\boldsymbol{x}''}$$
+
+** Results
+Semi-Supversied Learning shows high inception score.
+
+** Thoughts

@@ -46,6 +46,12 @@ The more stars, the more recommended.
 *** Face Pose Generation
 [[./papers/disentagled_representation_learning_gan_for_pose-invariant_face_recognition.org][Disentangled Representation Learning GAN for Pose-Invariant Face Recognition]]
 
+*** General GAN
+- [[./papers/wasserstein_gan.org][wasserstein gan]]
+- [[./papers/improved_training_of_wasserstein_gans.org][improved training of wasserstein gans]]
+- [[./papers/Improving_the_Improved_Training_of_Wasserstein_GANs_A_Consistency_Term_and_Its_Dual_Effect.org][Improving the Improved Training of Wasserstein GANs: A Consistency Term and Its Dual Effect]]
+
+
 ** Datasets
 - [[http://vis-www.cs.umass.edu/lfw/][LFW]]
 - [[http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html][CelebA]]
