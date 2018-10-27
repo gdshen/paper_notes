@@ -26,3 +26,4 @@ $$L = \mathbb{E}_{\mathit{z}\sim \mathbb{P}_\mathit{z}}[D(G(\mathit{\boldsymbol 
 Semi-Supversied Learning shows high inception score.
 
 ** Thoughts
+   hope to apply it into our gans frameworks.

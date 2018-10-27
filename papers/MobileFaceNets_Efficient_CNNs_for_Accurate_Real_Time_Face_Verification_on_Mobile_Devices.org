@@ -1,0 +1,46 @@
+* Paper Information
+** Title
+  MobileFaceNets: Efficient CNNs for Accurate Real-Time Face Verification on Mobile Devices
+   
+** Author
+   Sheng Chen, Yang Liu, Xiang Gao, Zhen Han
+   
+** Published
+   Chinese Conference on Biometric Recognition 2018, EI Index
+   [[https://arxiv.org/abs/1804.07573][Arxiv link]]
+   
+** Code
+   [[https://github.com/deepinsight/insightface/blob/master/src/symbols/fmobilefacenet.py][MXNet]]
+   
+* Paper Content
+** Why
+   To trade off between accuracy and speed for embeded devices
+   
+** What
+   Propose mobilenetv2-like network structure for face verification
+   
+** How
+   Use bottleneck proposed in mobilenetv2 and global depthwise convolution to design networks
+   
+  |     Input | Operator          | t |   c | n | s |
+  |-----------+-------------------+---+-----+---+---|
+  | 112x112x3 | conv3x3           | - |  64 | 1 | 2 |
+  |  56x56x64 | depthwise conv3x3 | - |  64 | 1 | 1 |
+  |  56x56x64 | bottleneck        | 2 |  64 | 5 | 2 |
+  |  28x28x64 | bottleneck        | 4 | 128 | 1 | 2 |
+  | 14x14x128 | bottleneck        | 2 | 128 | 6 | 1 |
+  | 14x14x128 | bottleneck        | 4 | 128 | 1 | 2 |
+  |   7x7x128 | bottleneck        | 2 | 128 | 2 | 1 |
+  |   7x7x128 | conv1x1           | - | 512 | 1 | 1 |
+  |   7x7x128 | linear GDConv7x7  | - | 512 | 1 | 1 |
+  |   1x1x512 | linear conv1x1    | - | 128 | 1 | 1 |
+   
+  for this table, t means the expansion rate in bottleneck, c is the output channel number, n is the repeated times, 
+  s is the stride in the first layer of this squence.
+   
+** Results
+   train from scratch in cleaned MS-CelebA, 99.55% in LFW, with 1M parameters.
+   
+** Thoughts
+   1. global average pooling destroy the information contained in feature, many works try to solve this problem.
+   2. instead of use a large linear layer, use global depthwise reduce the parameters.

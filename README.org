@@ -19,6 +19,7 @@ The more stars, the more recommended.
 - [[./papers/Disguise_Face_Identification_with_Facial_KeyPoints_using_Spatial_Fusion_Convolutional_Network.org][Disguised Face Identification with Facial KeyPoints using Spatial Fusion Convolutional Network]]
 - [[./papers/Learning_Face_Representation_from_Scratch.org][Learning Face Representation from Scratch]]
 - [[./papers/normface_l2_hypersphere_embedding_for_face_verification.org][NormFace L_2 Hypersphere Embedding for Face Verification]]
+- [[./papers/MobileFaceNets_Efficient_CNNs_for_Accurate_Real_Time_Face_Verification_on_Mobile_Devices.org][MobileFaceNets: Efficient CNNs for Accurate Real-Time Face Verification on Mobile Devices]]
 
 *** Face Detection and Alignment
 - [[./papers/How_far_are_we_from_solving_2d_and_3d_Face_Alignment_problem.org][How far are we from solving 2d & 3d Face Alignment Problems]]
