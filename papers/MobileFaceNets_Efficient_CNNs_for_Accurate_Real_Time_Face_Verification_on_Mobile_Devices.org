@@ -32,7 +32,7 @@
   | 14x14x128 | bottleneck        | 4 | 128 | 1 | 2 |
   |   7x7x128 | bottleneck        | 2 | 128 | 2 | 1 |
   |   7x7x128 | conv1x1           | - | 512 | 1 | 1 |
-  |   7x7x128 | linear GDConv7x7  | - | 512 | 1 | 1 |
+  |   7x7x512 | linear GDConv7x7  | - | 512 | 1 | 1 |
   |   1x1x512 | linear conv1x1    | - | 128 | 1 | 1 |
    
   for this table, t means the expansion rate in bottleneck, c is the output channel number, n is the repeated times, 
