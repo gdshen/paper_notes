@@ -32,6 +32,10 @@ The more stars, the more recommended.
 - [[./papers/Deep_Convolutioal_Neural_Network_for_Age_Estimation_based_on_VGG-Face_Model.org][Deep Convolutional Neural Network for Age Estimation based on VGG-Face Mode]] ****
 - [[./papers/Apparent_Age_Estimation_Using_Ensemble_of_Deep_Learning_Models.org][Apparent Age Estimation Using Ensemble of Deep Learning Models]] **
 
+***  Pose Estimation
+- [./papers/ 
+
+
 *** Evaluation Metrics
 - [[./papers/Description_of_Metrics_For_the_Evaluation_of_Biometric_Performance.org][Description of Metrics For the Evaluation of Biometric Performance]]
   

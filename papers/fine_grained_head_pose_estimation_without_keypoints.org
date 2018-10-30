@@ -1,0 +1,21 @@
+* Paper Information
+** Title
+  Fine-Grained Head Pose Estimation Without Keypoints
+** Author
+  Nataniel Ruiz, Eunji Chong, James M. Rehg
+** Published
+  Computer Vision and Pattern Recognition Workshops
+** Code
+  [[https://github.com/natanielruiz/deep-head-pose][Official PyTorch]]
+
+* Paper Content
+** Why
+  Put the pose estimation into the main problem on one network
+** What
+  propose to use combine loss for pose estimation(classification loss with regression loss)
+** How
+  finetune useing resnet/alexnet
+** Results
+  Test Alfw
+** Thoughts
+  split regression loss into two loss

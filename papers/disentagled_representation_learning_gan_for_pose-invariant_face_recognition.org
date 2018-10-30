@@ -1,12 +1,14 @@
 * Paper Information
 ** Title
 Disentangled Representation Learning GAN for Pose-Invariant Face Recognition
+Representation Learning by Rotating Your Faces
 
 ** Author
 Luan Tran, Xi Yin, Xiaoming Liu
 
 ** Published
-CVPR 2018
+CVPR 2017
+TPAMI
 
 ** Code
 [[https://github.com/kayamin/DR-GAN][Unofficial PyTorch]]
@@ -19,6 +21,9 @@ Motivation: to improve the performance of pose invariant face recognition
 1. using encode-decoder structure
 2. add pose code to direct the decoder
 3. support multiple images for testing.
+4. model switch: since D and G_{enc} are the same structure
+5. variable interpolate
+6. compare different loss
    
 ** How
 GAN strucuture similair zi2zi
@@ -32,7 +37,7 @@ Datasets used: multi-pie, cfp, IJB-A
    1. face frontalization
    2. learn pose-invariant feature representation
 3. they do not add constraints on pose in encoding network
-4. It is pair learning, we still need the pose code for our training sets.
+4. It is pair learning, we still need the pose code for our training sets. (use landmarks to determine the pose)
 5. Could we acquire Multi-Pie and IJB-A datasets?
 6. It not balanced for identify classification with real/fake classification.
 7. can we replace the avgpool in the enc
