@@ -1,0 +1,27 @@
+* Paper Information
+** Title
+CR-GAN: Learning Complete Representations for Multi-view Generation
+** Author
+Yu Tian1, Xi Peng1, Long Zhao1, Shaoting Zhang2 and Dimitris N. Metaxas1
+** Published
+IJCAI(International Joint Conferences on Artificial Intelligence
+** Code
+[[https://github.com/bluer555/CR-GAN][Official PyTorch]]
+
+* Paper Content
+** Why
+The decoder of GAN with encoder-decoder only see partial feature vectors.
+
+** What
+Propose to use another decoder to decode random generate features.
+
+** How
+tow path way gans structure
+
+** Results
+compare with DR-GAN, generated face images of same ids has smaller distances computed using facenet.
+and has better visual effects.
+
+** Thoughts
+1. it doesnt focus on the discrimative feature, only on generative.
+2. not obvious to improve the face recognition accuracy.

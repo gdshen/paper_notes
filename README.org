@@ -33,7 +33,7 @@ The more stars, the more recommended.
 - [[./papers/Apparent_Age_Estimation_Using_Ensemble_of_Deep_Learning_Models.org][Apparent Age Estimation Using Ensemble of Deep Learning Models]] **
 
 ***  Pose Estimation
-- [./papers/ 
+- [[./papers/fine_grained_head_pose_estimation_without_keypoints.org][Fine-Grained Head Pose Estimation Without Keypoints]]
 
 
 *** Evaluation Metrics
@@ -50,6 +50,7 @@ The more stars, the more recommended.
 
 *** Face Pose Generation
 [[./papers/disentagled_representation_learning_gan_for_pose-invariant_face_recognition.org][Disentangled Representation Learning GAN for Pose-Invariant Face Recognition]]
+[[./papers/crgan_learning_complete_representations_for_multi_view_generation.org][CR-GAN: Learning complete representations for multi-view generation]]
 
 *** General GAN
 - [[./papers/wasserstein_gan.org][wasserstein gan]]
