@@ -5,7 +5,6 @@
 ** Code
 * Paper Content
 ** Why
-** What
 ** How
 ** Results
 ** Thoughts

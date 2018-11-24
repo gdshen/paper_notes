@@ -1,0 +1,26 @@
+* Paper Information
+** Title
+Ordinal Regression with Multiple Output CNN for Age Estimation
+** Author
+Zhenxing Niu, Mo Zhou, Le Wang, Xinbo Gao, Gang Hua
+** Published
+CVPR 2016
+** Code
+[[https://github.com/kongsicong/Age_recognition_OR][Official Caffe]]
+
+* Paper Content
+** Why
+To improve the accuracy of age estimation
+** How
+1. Using end 2 end ordinal regression, shadow CNN structure
+2. propose a new fage age datasets AFAD
+   
+K-1 classifier
+   
+** Results
+0.15 ~ 0.17 improvement
+
+** Thoughts
+1. without consitency in different binary classifiers
+2. use color image instead of gray image
+3. importance of different tasks

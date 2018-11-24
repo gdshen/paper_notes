@@ -31,6 +31,7 @@ The more stars, the more recommended.
 *** Age Estimation
 - [[./papers/Deep_Convolutioal_Neural_Network_for_Age_Estimation_based_on_VGG-Face_Model.org][Deep Convolutional Neural Network for Age Estimation based on VGG-Face Mode]] ****
 - [[./papers/Apparent_Age_Estimation_Using_Ensemble_of_Deep_Learning_Models.org][Apparent Age Estimation Using Ensemble of Deep Learning Models]] **
+- [[./papers/ordinal_regression_with_multiple_output_cnn_for_age_estimation.org][Ordinal Regression with Multiple Output CNN for Age Estimation]] ***
 
 ***  Pose Estimation
 - [[./papers/fine_grained_head_pose_estimation_without_keypoints.org][Fine-Grained Head Pose Estimation Without Keypoints]]
