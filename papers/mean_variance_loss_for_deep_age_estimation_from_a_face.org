@@ -1,0 +1,25 @@
+* Paper Information
+** Title
+Mean-Variance Loss for Deep Age Estimation from a Face
+** Author
+Hongyu Pan, Hu Han, Shiguang Shan and Xilin Chen
+** Published
+CVPR 2018
+** Code
+None
+
+* Paper Content
+** Why
+age regression or classification do not utilize the distrubutions robustness or ordinal information in age
+
+** How
+Use 3 loss
+1. original cross_entropy loss
+2. mean loss, softmax output * range_j
+3. variance loss, shrinkt probabilities
+   
+** Results
+Test in Morph II and FGNet
+** Thoughts
+1. softmax expectation from deep expection penalize ages differently
+2. why use alexnet and vgg in 2018?
